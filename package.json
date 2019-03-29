@@ -1,0 +1,24 @@
+{
+  "name": "entre-nosotras",
+  "version": "1.0.0",
+  "description": "App para ayudar a las mujeres que sufren de acso",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloryRojas/Entre-nosotras.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "Acoso"
+  ],
+  "author": "Kimberly Rojas, Kyara Bahamonde, Glory Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GloryRojas/Entre-nosotras/issues"
+  },
+  "homepage": "https://github.com/GloryRojas/Entre-nosotras#readme"
+}
