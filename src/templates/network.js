@@ -8,12 +8,19 @@ export const menuNavegacionHome = () => {
       <div class="contenedor">
         <input type="checkbox"  id="btn-menu"><label for="btn-menu" class="icon-menu"><i class="fas fa-bars"></i></label>
         <h1> Entre nosotras</h1>
-        <a href='#home'><i class="far fa-comments icon"></i></a>
+        <input type="checkbox"  id="btn-comments"><label for="btn-comments" class="icon-menu"><i class="far fa-comments icon"></i></label>
         <nav class="menu">
           <a href="#/home" id="btn-inicio">Configuración de cuenta</a>
           <a href="#/myprofile" id="btn-miperfil">Acerca de nosotras</a>
           <a href="#/login" id="btn-cerrar-sesion">Salir</a>     
         </nav>
+        <nav class="menue">
+        <a href="https://wa.me/51997837911 id="btn-inicio">Acoso laboral</a>
+        <a href="#/myprofile" id="btn-miperfil">Ciberacoso</a>
+        <a href="#/login" id="btn-cerrar-sesion">Acoso callejero</a>   
+        <a href="#/login" id="btn-cerrar-sesion">Acoso sexual</a>     
+        <a href="#/login" id="btn-cerrar-sesion">Acoso físico</a>       
+      </nav>
       </div>
     </header>
     <footer>
