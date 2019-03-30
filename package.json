@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GloryRojas/Entre-nosotras/issues"
   },
-  "homepage": "https://github.com/GloryRojas/Entre-nosotras#readme"
+  "homepage": "https://github.com/GloryRojas/Entre-nosotras#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
 }
