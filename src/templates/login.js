@@ -21,7 +21,12 @@ export const iniciarSesion = () => {
       </div>
     </div>
     <footer>
-      <h1>Llamada de emergencia</h1>
+      <div>
+        <h1>Llamar emergencia 105</h1>
+      </div>
+      <div>
+        <a class ="icon"><i class="fas fa-phone-volume"></i></a>
+      </div>
     </footer>
   `;
   formIniciar.innerHTML = formLogin;

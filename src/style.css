@@ -24,9 +24,19 @@ header{
 }
 footer{
   position: absolute;
+  width: 100%;
   background-color: black;
   color: #ffffff;
+  bottom: 0;
+
 }
+
+.icon{
+display: inline-block;
+font-size: 30px;
+margin-left: 10px;
+}
+
 .contendor{
   display: flex;
   justify-content: space-between;
