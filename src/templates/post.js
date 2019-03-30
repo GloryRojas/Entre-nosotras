@@ -6,14 +6,14 @@ export const cargarPublicaciones = () => {
     
     const publicaciones = `
         <section id="id_publicaciones" class="formPost" >
-            <h3 >Cuéntanos</h3><br>
+            <h3 >Comparte tus experiencias</h3><br>
             <div class="text-boton-post">
-                <textarea type= "textfield" id="id-publicacion" class="id-publicacion" autofocus placeholder="publica aqui" ></textarea>
+                <input type= "textfield" id="id-publicacion" class="id-publicacion" autofocus placeholder="publica aqui" ></input>
             </div>
             <button id = "id-save">Publicar</button>
             <select>
                     <option value="Publico">Publico</option>
-                    <option value="Privado">Privado</option>
+                    <option value="Privado">Anonimo</option>
             </select>
         </section>
         <section id="id_contenedor">
@@ -59,8 +59,8 @@ export const templateContenedorPost = (data)=>{
             <div>
             <button type="button" id ="btnEditar-${doc.id}" class="btn-editar">Editar</button>
             <button type="button" id ="btnEliminar-${doc.id}" class="btn-GuardarCambios">Guardar</button>
-            <img src="img/garbage.png" type="button" id ="${doc.id}" class="btn-eliminar">
-            <img src="img/like.png" type="button" id ="${doc.id}" class="btn-like" data-like=${doc.like}>
+            <button type="button" id ="${doc.id}" class="btn-eliminar"><i class="fas fa-trash-alt"></i></button>
+            <button type="button" id ="${doc.id}" class="btn-like" data-like=${doc.like}><i class="fas fa-thumbs-up"></i></button>
             <label id="contenedor-like">${doc.like}</label>
             </div>
         </div>

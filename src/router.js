@@ -2,13 +2,12 @@ import { iniciarSesion } from './templates/login.js';
 import { menuNavegacionHome } from './templates/network.js';
 import { registrarCuenta } from './templates/register.js';
 import { cargarPublicaciones } from './templates/post.js';
-import { cargarMiPerfil } from './templates/myprofile.js';
-
+import { cargarMiPerfil } from './templates/agenda.js';
 
 const cambiarTmp = (hash) => {
   if (hash === '#/' || hash === '' || hash === '#') {
     return vistaTmp('#/login');
-  } else if (hash === '#/login' || hash === '#/home' || hash === '#/signup'|| hash === '#/myprofile') {
+  } else if (hash === '#/login' || hash === '#/home' || hash === '#/signup' || hash === '#/agenda') {
     return vistaTmp(hash);
   } else {
     return vistaTmp('#/login');
@@ -30,7 +29,7 @@ const vistaTmp = (routers) => {
     case 'signup':
       root.appendChild(registrarCuenta());
       break;
-    case 'myprofile':
+    case 'agenda':
       root.appendChild(menuNavegacionHome());
       root.appendChild(cargarMiPerfil());
       break;

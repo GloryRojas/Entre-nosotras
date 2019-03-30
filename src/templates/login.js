@@ -24,9 +24,10 @@ export const iniciarSesion = () => {
     <footer>
       <div>
       </div>
-      <div class = "foot"><a href="https://wa.me/51964605570">
-      <h1>Llamar emergencia 105</h1>
-<a class ="icon"><i class="fas fa-phone-volume"></i></a>
+      <div class = "foot">
+      <a href="https://wa.me/51964605570"></a>
+      <h1>Llamar emergencia 100</h1>
+      <a class ="icon"><i class="fas fa-phone-volume"></i></a>
       </div>
     </footer>
   `;
