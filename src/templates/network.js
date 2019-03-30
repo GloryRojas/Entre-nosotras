@@ -18,9 +18,11 @@ export const menuNavegacionHome = () => {
     </header>
     <footer>
       <nav>
-        <a href="#/home" id="btn-inicio">hola</a>
-        <a href="#/myprofile" id="btn-miperfil"></a>
-        <a href="#/login" id="btn-cerrar-sesion"></a>     
+      <div class = "iconos">
+          <a href="#/home" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/home.png"></a>
+          <a href="#/myprofile" id="btn-miperfil" class ="imagenes"><img src="https://img.icons8.com/dotty/80/000000/office-worker-in-a-suit-female.png"></a>
+          <a href="#/login" id="btn-cerrar-sesion" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/address-book.png"></a>
+          <a href="#/home" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/cotton/64/000000/hot-line.png"></a>
       </nav>
     </footer>
   `;

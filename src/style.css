@@ -26,11 +26,25 @@ header{
 footer{
   position: absolute;
   width: 100%;
-  background-color: black;
+  background-color: #ffffff;
   color: #ffffff;
   bottom: 0;
-
 }
+.iconos{
+width: 100%;
+vertical-align: middle;
+text-align: center;
+}
+.iconos img {
+  margin: 0 8px;
+}
+.imagenes{
+  margin-left: 0%
+}
+.icons {
+  display: inline-block;
+  height:auto;
+vertical-align: middle}
 h1{
   text-align: center
 }
