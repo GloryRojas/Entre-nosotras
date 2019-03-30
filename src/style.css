@@ -7,33 +7,59 @@
   font-family: 'Merienda', cursive;
 }
 body{
-  font-family: 'open Sans',sans-serif;
+  font-family: 'Helvetica Neue',car;
+  background: url(img/login.png) no-repeat;
+  
   background-attachment: fixed;
   background-size: 100vw 100vh;
 }
 /*Estilo al header de la pantalla principal*/
 header{
   width: 100%;
-  height: 50px; 
-  background:#7f0000;
-  color: rgb(247, 241, 241);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
+    height: 50px; 
+    background:#CADD64;
+    color: rgb(247, 241, 241);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
-.bienvenido{
-  color: white;
-  padding: 5px;
+footer{
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: #ffffff;
+  bottom: 0;
+
 }
+h1{
+  text-align: center
+}
+.icon{
+display: inline-block;
+font-size: 30px;
+margin-left: 10px;
+}
+.foot{
+  text-align: center
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  }
 h1{ 
-  float: left;
+  /* float: left; */
+  width: 70%;
+}
+.contenedor h1 {
+  display: inline;
 }
 #btn-menu{
   display: none;
 }
 header label{
-  float: right;
+  /* float: right; */
   font-size: 28px;
   margin: 6px 0;
   cursor: pointer;
@@ -64,16 +90,17 @@ header label{
 }
 #btn-menu:checked ~ .menu {
   transform: translateX(0);
+} 
+.formPost{
+  margin-top: 20px;
+  padding: 20px;
 }
 /*Inicio de sesion*/
 .iniciar-sesion{
   margin: auto;
   width: 70%;
   max-width: 500px;
-  background: rgba(236, 228, 183, 0.74);
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: rgba(236, 228, 183, 0.74);
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background:rgba(255, 255, 255, 0.72);
   padding: 30px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -90,14 +117,14 @@ header label{
   text-align: center;
 }
 .logo-inicio{
- width: 100px;
- height: 100px;
+margin-left: -20px;
 }
 .titulo-inicio,.slogan{
   width: 100%;
   display: flex;
   text-align: center;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-inicio{
   margin-left: 30%;
@@ -114,7 +141,7 @@ header label{
   margin-bottom: 0; 
 }
 .btn-login{
-  background-color:rgba(163, 29, 29, 0.74);
+  background-color:#FA8772;
 }
 #btn-facebook{
   background-color: #3B5998;
@@ -138,9 +165,43 @@ header label{
   color: red;
   text-align: center;
 }
-  /*Estilos de registro*/
-.text-boton-post{
-  display: flex;
+.form{
+  
+}
+
+  /*dandole estilo a registrarse*/
+  .text-boton-post{
+    display: flex;
+  }
+  .id-save{
+    width: 60px;
+  }
+  .logo-registro{
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px; 
+  }
+  /*dando estilos al contenido post*/
+
+  .contenedor-publicaciones{
+    margin: auto;
+    width: 70%;
+    
+    border-radius: 10px;
+   
+  }
+  .formPost{
+    margin: auto;
+    width: 70%;
+    margin-top: 12%;
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+  }
+  .ingresar-post-aqui{
+    margin: auto;
+    width: 70%;
+    font-family: 'Merienda', cursive;
   }
 .id-save{
   width: 60px;
@@ -286,5 +347,25 @@ header label{
     width: 90%;
     max-width: 500px;
     margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.24)}
+}
+/* MODO RESPONDIVE TABLET */
+@media (min-width:900px){
+  .menu{
+    position: static;
+    width:auto;
+    height: auto;
+    transform:translateX(0%);
+    float: right;
+    display: flex;
+  }
+  .menu a{
+    border: none;
+  }
+  header label{
+    display: none;
   }
 }
+  
+    
+ 
