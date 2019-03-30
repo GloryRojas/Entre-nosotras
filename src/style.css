@@ -35,13 +35,24 @@ footer{
 width: 100%;
 vertical-align: middle;
 text-align: center;
-background-color: #ffffff
+background-color: #ffffff;
+/* position: fixed;
+bottom: 0; */
+}
+.house{
+  width: 100%;
+vertical-align: middle;
+text-align: center;
+background-color: #ffffff;
+position: fixed;
+bottom: 0;
+
 }
 .iconos img {
   margin: 0 8px;
 }
 .imagenes{
-  margin-left: 0%
+  margin-left: 0%;
 }
 .icons {
   display: inline-block;
@@ -362,6 +373,32 @@ margin-left: -20px;
 .foto-perfil{
   width: 20%;
   border-radius: 500px;
+}
+
+.project-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.project-wrapper li {
+  display: inline-block;
+}
+
+.portfolio-item {
+  cursor: pointer;
+  margin: 0 1% 1% 0;
+  overflow: hidden;
+  position: relative;
+  width: 32%;
+}
+.laboral{
+  display: inline-block
+}
+.asesoria{
+  max-width: 100%;
+  margin-bottom: 15px
 }
 /* MODO RESPONSIVE PC */
 @media (min-width:900px){

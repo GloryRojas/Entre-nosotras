@@ -23,13 +23,13 @@ export const menuNavegacionHome = () => {
       </nav>
       </div>
     </header>
-    <footer>
+    <footer class ="house">
       <nav>
       <div class = "iconos">
           <a href="#/home" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/home.png"></a>
           <a href="#/myprofile" id="btn-miperfil" class ="imagenes"><img src="https://img.icons8.com/dotty/80/000000/office-worker-in-a-suit-female.png"></a>
-          <a href="#/login" id="btn-cerrar-sesion" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/address-book.png"></a>
-          <a href="tel:+51100 id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/cotton/64/000000/hot-line.png"></a>
+          <a href="#/posts.js" id="btn-cerrar-sesion" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/address-book.png"></a>
+          <a href="tel:100" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/cotton/64/000000/hot-line.png"></a>
       </nav>
     </footer>
   `;

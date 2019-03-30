@@ -22,6 +22,24 @@ export const cargarPublicaciones = () => {
                 <ul id="id-contenedorPublicaciones" class= "contenedor-publicaciones"></ul>
             </div>
         </section>
+        <section id="id_publicaciones" class="formPost" >
+            <h3 >Cuéntanos</h3><br>
+            <div class="text-boton-post">
+                <textarea type= "textfield" id="id-publicacion" class="id-publicacion" autofocus placeholder="publica aqui" ></textarea>
+            </div>
+            <button id = "id-save">Publicar</button>
+            <select>
+                    <option value="Publico">Publico</option>
+                    <option value="Privado">Privado</option>
+            </select>
+        </section>
+        <section id="id_contenedor">
+            <div>
+                <h3 class="ingresar-post-aqui"></h3><br>
+                <ul id="id-contenedorPublicaciones" class= "contenedor-publicaciones"></ul>
+            </div>
+        </section>
+        
     `;
     templatePublicaciones.innerHTML=publicaciones;
     const btnGuardarPost = templatePublicaciones.querySelector("#id-save");
@@ -31,7 +49,6 @@ export const cargarPublicaciones = () => {
 }
 
 export const templateContenedorPost = (data)=>{
-    console.log(data);
     let listPublicaciones = "";
     data.forEach((doc)=>{
         const contenedorPost = `
