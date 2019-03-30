@@ -7,7 +7,7 @@
   font-family: 'Merienda', cursive;
 }
 body{
-  font-family: 'Helvetica Neue',car;
+  font-family: 'Helvetica Neue';
   background: url(img/login.png) no-repeat;
   
   background-attachment: fixed;
@@ -37,11 +37,26 @@ header{
 footer{
   position: absolute;
   width: 100%;
-  background-color: black;
+  background-color:#000000;
   color: #ffffff;
   bottom: 0;
-
 }
+.iconos{
+width: 100%;
+vertical-align: middle;
+text-align: center;
+background-color: #ffffff
+}
+.iconos img {
+  margin: 0 8px;
+}
+.imagenes{
+  margin-left: 0%
+}
+.icons {
+  display: inline-block;
+  height:auto;
+vertical-align: middle}
 h1{
   text-align: center
 }
@@ -60,12 +75,15 @@ margin-left: 10px;
   }
 h1{ 
   /* float: left; */
-  width: 70%;
+  width: 100%;
 }
 .contenedor h1 {
   display: inline;
 }
 #btn-menu{
+  display: none;
+}
+#btn-comments{
   display: none;
 }
 header label{
@@ -101,6 +119,33 @@ header label{
 #btn-menu:checked ~ .menu {
   transform: translateX(0);
 } 
+#btn-comments:checked ~ .menue {
+  transform: translateX(0);
+} 
+.menue a :hover{
+  background:rgba(255,255,255,0.5);
+}
+.menue{
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background:rgba(150, 38, 38, 0.507);
+  transition: all 0.5s;
+  transform: translateX(-100%);
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Merienda', cursive;
+}
+.menue a{
+  background-color:solid rgba(175, 42, 42, 0.445); 
+  display: block;
+  color: #ffffff;
+  height: 50px;
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 1px solid rgba(163, 29, 29, 0.5);
+}
 .formPost{
   margin-top: 20px;
   padding: 20px;
