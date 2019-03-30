@@ -41,22 +41,17 @@ margin-left: 10px;
 .foot{
   text-align: center
 }
-.contendor{
+.contenedor{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   }
-  .bienvenidx{
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Merienda', cursive;
-  color: white;
-  }
 h1{ 
-  float: left;
+  /* float: left; */
   width: 70%;
 }
-header .contendor{
-  display: table;
+.contenedor h1 {
+  display: inline;
 }
 #btn-menu{
   display: none;
@@ -66,7 +61,7 @@ header .contendor{
   text-align: center;
 }
 header label{
-  float: right;
+  /* float: right; */
   font-size: 28px;
   margin: 6px 0;
   cursor: pointer;
@@ -95,9 +90,9 @@ header label{
 .menu a :hover{
   background:rgba(255,255,255,0.5);
 }
-/* #btn-menu:checked ~ .menu {
+#btn-menu:checked ~ .menu {
   transform: translateX(0);
-} */
+} 
 .formPost{
   margin-top: 20px;
   padding: 20px;
