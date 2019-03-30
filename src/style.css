@@ -30,13 +30,17 @@ footer{
   bottom: 0;
 
 }
-
+h1{
+  text-align: center
+}
 .icon{
 display: inline-block;
 font-size: 30px;
 margin-left: 10px;
 }
-
+.foot{
+  text-align: center
+}
 .contendor{
   display: flex;
   justify-content: space-between;
@@ -49,6 +53,7 @@ margin-left: 10px;
   }
 h1{ 
   float: left;
+  width: 70%;
 }
 header .contendor{
   display: table;

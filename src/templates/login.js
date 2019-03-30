@@ -22,10 +22,10 @@ export const iniciarSesion = () => {
     </div>
     <footer>
       <div>
-        <h1>Llamar emergencia 105</h1>
       </div>
-      <div>
-        <a class ="icon"><i class="fas fa-phone-volume"></i></a>
+      <div class = "foot">
+      <h1>Llamar emergencia 105</h1>
+<a class ="icon"><i class="fas fa-phone-volume"></i></a>
       </div>
     </footer>
   `;
