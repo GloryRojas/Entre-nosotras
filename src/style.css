@@ -6,8 +6,9 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'open Sans',sans-serif;
-  /*background-image: url(../img/fondo-pantalla.jpg);*/
+  font-family: 'Helvetica Neue',car;
+  background: url(img/login.png) no-repeat;
+  
   background-attachment: fixed;
   background-size: 100vw 100vh;
 }
@@ -102,7 +103,7 @@ header label{
   margin: auto;
   width: 70%;
   max-width: 500px;
-  background: #FA8771;
+  background:rgba(255, 255, 255, 0.72);
   padding: 30px;
   border-radius: 10px;
   margin-top: 6%;
@@ -118,14 +119,14 @@ header label{
   text-align: center;
 }
 .logo-inicio{
- width: 100px;
- height: 100px;
+margin-left: -20px;
 }
 .titulo-inicio,.slogan{
   width: 100%;
   display: flex;
   text-align: center;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-inicio{
   margin-left: 30%;
@@ -142,7 +143,7 @@ header label{
   margin-bottom: 0; 
 }
 .btn-login{
-  background-color:#804372;
+  background-color:#FA8772;
 }
 #btn-google, #btn-registrate{
   font-size: 15px;
@@ -156,6 +157,9 @@ header label{
 }
 .contenedor-mensaje{
   overflow: auto;
+}
+.form{
+  
 }
 
   /*dandole estilo a registrarse*/
@@ -255,7 +259,7 @@ header label{
     width: 90%;
     max-width: 500px;
     margin-top: 10%;
-  }
+background-color: rgba(255, 255, 255, 0.24)}
 }
 /* MODO RESPONDIVE TABLET */
 @media (min-width:900px){

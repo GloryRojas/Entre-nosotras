@@ -1,6 +1,4 @@
 import{cerrarSesionClick} from '../view-controller.js';
-import { cambiarHash } from '../view-controller.js'
-
 
 export const menuNavegacionHome = () => {
   //Carga de Headerhome
