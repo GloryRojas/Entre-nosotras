@@ -6,8 +6,8 @@ export const menuNavegacionHome = () => {
   const pantallaPrincipal = `
     <header>
       <div class="contenedor">
-        <input type="checkbox"  id="btn-menu"><label for="btn-menu" class="icon-menu"><i class="fas fa-bars"></i></label>
-        <h1> Entre nosotras</h1>
+        <input type="checkbox" id="btn-menu"><label for="btn-menu" class="icon-menu"><i class="fas fa-bars"></i></label>
+        <img src="./img/logoprin.jpg" class="logito">
         <input type="checkbox"  id="btn-comments"><label for="btn-comments" class="icon-menu"><i class="far fa-comments icon"></i></label>
         <nav class="menu">
           <a href="#/home" id="btn-inicio">Configuración de cuenta</a>
