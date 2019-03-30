@@ -1,4 +1,4 @@
-import { ingresarConCorreoYContrasena, ingresarConGoogle, ingresarConFacebook, registroConCorreo, cerrarSesion } from './controller/autentificacion.js';
+import { ingresarConCorreoYContrasena, ingresarConGoogle, registroConCorreo, cerrarSesion } from './controller/autentificacion.js';
 import { agregarPost, eliminarPost, editarPost,postLike} from './controller/publicacion.js';
 
 // Funcion para cambiar la ruta
@@ -39,35 +39,6 @@ export const ingresarConGoogleClick = (event) => {
             var errorMessage = error.message;
             // The email of the user's account used.
             var email = error.email;
-        })
-    }
-
-export const ingresarConFacebookClick = (event) => {
-    event.preventDefault();
-    ingresarConFacebook()
-        .then(() => {
-            let user = firebase.auth().currentUser;
-            if (user != null) {
-            user.providerData.forEach(function (profile) {
-                firebase.firestore().collection('users').doc(user.uid).set({
-                    id: profile.uid,
-                    name: profile.displayName,
-                    email: profile.email,
-                    photo: profile.photoURL,
-                    });
-            }
-            )}
-            cambiarHash('/home');
-        })
-        .catch((error) => {
-            // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            // The email of the user's account used.
-            var email = error.email;
-            // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
-            // ...
         })
     }
 

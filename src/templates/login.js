@@ -1,4 +1,4 @@
-import { ingresarConCorreoYContrasenaClick, ingresarConGoogleClick, ingresarConFacebookClick, cambiarHash } from '../view-controller.js'
+import { ingresarConCorreoYContrasenaClick, ingresarConGoogleClick, cambiarHash } from '../view-controller.js'
 
 export const iniciarSesion = () => {
   const formIniciar = document.createElement('section');
@@ -6,7 +6,7 @@ export const iniciarSesion = () => {
     <div class='iniciar-sesion'>
       <div class='cabecera-login'>
         <img class='logo-inicio' src='img/logo.png' alt=''>
-        <h2 class='titulo-inicio'>Entre Nosotras</h1>
+        <h1 class='titulo-inicio'>Entre Nosotras</h1>
         <span class='slogan'>Comparte tus conocimientos y aprende de otros</span>
       </div>
       <form id='form-autenticacion' class='form-autenticacion' action='index.html' method='post'>
@@ -20,6 +20,9 @@ export const iniciarSesion = () => {
         <a id='btn-registrate'>¿No tienes cuenta? Regístrate AQUI</a>
       </div>
     </div>
+    <footer>
+      <h1>Llamada de emergencia</h1>
+    </footer>
   `;
   formIniciar.innerHTML = formLogin;
     
