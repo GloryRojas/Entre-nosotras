@@ -15,11 +15,11 @@ export const menuNavegacionHome = () => {
           <a href="#/login" id="btn-cerrar-sesion">Salir</a>     
         </nav>
         <nav class="menue">
-        <a href="https://wa.me/51997837911 id="btn-inicio">Acoso laboral</a>
-        <a href="#/myprofile" id="btn-miperfil">Ciberacoso</a>
-        <a href="#/login" id="btn-cerrar-sesion">Acoso callejero</a>   
-        <a href="#/login" id="btn-cerrar-sesion">Acoso sexual</a>     
-        <a href="#/login" id="btn-cerrar-sesion">Acoso físico</a>       
+        <a href="https://wa.me/51997837911" id="btn-inicio">Acoso laboral</a>
+        <a href="https://wa.me/51982544101" id="btn-miperfil">Ciberacoso</a>
+        <a href="https://wa.me/51935714773 id="btn-cerrar-sesion">Acoso callejero</a>   
+        <a href="https://wa.me/51982544101" id="btn-cerrar-sesion">Acoso sexual</a>     
+        <a href="https://wa.me/51997837911" id="btn-cerrar-sesion">Acoso físico</a>       
       </nav>
       </div>
     </header>
@@ -29,7 +29,7 @@ export const menuNavegacionHome = () => {
           <a href="#/home" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/home.png"></a>
           <a href="#/myprofile" id="btn-miperfil" class ="imagenes"><img src="https://img.icons8.com/dotty/80/000000/office-worker-in-a-suit-female.png"></a>
           <a href="#/login" id="btn-cerrar-sesion" class ="imagenes"><img src="https://img.icons8.com/ios/50/000000/address-book.png"></a>
-          <a href="#/home" id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/cotton/64/000000/hot-line.png"></a>
+          <a href="tel:+51100 id="btn-inicio" class ="imagenes"><img src="https://img.icons8.com/cotton/64/000000/hot-line.png"></a>
       </nav>
     </footer>
   `;
