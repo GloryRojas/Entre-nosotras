@@ -11,7 +11,7 @@ export const menuNavegacionHome = () => {
         <a href='#home'><i class="far fa-comments icon"></i></a>
         <nav class="menu">
           <a href="#/home" id="btn-inicio">Configuración de cuenta</a>
-          <a href="#/myprofile" id="btn-miperfil">Acerca de nosotras</a>
+          <a href="#/agenda" id="btn-miperfil">Acerca de nosotras</a>
           <a href="#/login" id="btn-cerrar-sesion">Salir</a>     
         </nav>
       </div>
@@ -19,7 +19,7 @@ export const menuNavegacionHome = () => {
     <footer>
       <nav>
         <a href="#/home" id="btn-inicio">hola</a>
-        <a href="#/myprofile" id="btn-miperfil"></a>
+        <a href="#/agenda" id="btn-miperfil"></a>
         <a href="#/login" id="btn-cerrar-sesion"></a>     
       </nav>
     </footer>

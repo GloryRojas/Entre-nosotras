@@ -16,13 +16,23 @@ body{
 /*Estilo al header de la pantalla principal*/
 header{
   width: 100%;
-    height: 50px; 
-    background:#CADD64;
-    color: rgb(247, 241, 241);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
+  height: 50px; 
+  background:#CADD64;
+  color: rgb(247, 241, 241);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.help{
+  margin: 60px;
+  background-color: #7f0000;
+}
+/*Box Agenda*/
+.box{
+  border-block-end-color: #FA8772;
+  border-radius: 20px;
+  background-color: #3B5998;
 }
 footer{
   position: absolute;
@@ -164,9 +174,6 @@ margin-left: -20px;
 .error {
   color: red;
   text-align: center;
-}
-.form{
-  
 }
 
   /*dandole estilo a registrarse*/
@@ -317,7 +324,8 @@ margin-left: -20px;
 .foto-perfil{
   width: 20%;
   border-radius: 500px;
-}
+}  
+
 /* MODO RESPONSIVE PC */
 @media (min-width:900px){
   /* Header*/
@@ -366,6 +374,4 @@ margin-left: -20px;
     display: none;
   }
 }
-  
-    
- 
+
